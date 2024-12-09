@@ -53,18 +53,18 @@
     justify-content: space-between;
 }
 
-.navItems>li:hover{
+.navItems>li:hover {
     color: black;
     transition: .2s;
     cursor: pointer;
 }
 
-.gitLinks{
+.gitLinks {
     color: gray;
     text-decoration: none;
 }
 
-.gitLinks:hover{
+.gitLinks:hover {
     color: black;
     transition: .2s;
     cursor: pointer;
@@ -83,7 +83,7 @@ li {
     justify-content: space-between;
 }
 
-.DocsHero{
+.DocsHero {
     width: 100%;
     height: 400px;
     margin: 30px 0px 50px 0px;
@@ -92,7 +92,7 @@ li {
     justify-content: space-between;
 }
 
-.heroleft{
+.heroleft {
     width: 45%;
     height: 80%;
     display: flex;
@@ -101,20 +101,20 @@ li {
     flex-direction: column;
 }
 
-.heroleft>h1{
+.heroleft>h1 {
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 20px;
     color: #007dfe;
 }
 
-.heroleft>p{
+.heroleft>p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     margin-bottom: 20px;
     color: gray;
 }
 
-.Docsleft{
+.Docsleft {
     width: 45%;
     height: 40%;
     display: flex;
@@ -123,13 +123,13 @@ li {
     flex-direction: column;
 }
 
-.Docsleft>h1{
+.Docsleft>h1 {
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 10px;
     color: #007dfe;
 }
 
-.Docsleft>p{
+.Docsleft>p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     margin-bottom: 20px;
@@ -137,7 +137,7 @@ li {
     text-align: justify;
 }
 
-.heroButtons{
+.heroButtons {
     width: 70%;
     height: 50%;
     display: flex;
@@ -147,7 +147,7 @@ li {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.githubBtn{
+.githubBtn {
     width: 90%;
     height: 45%;
     border-radius: 5px;
@@ -159,7 +159,7 @@ li {
     cursor: pointer;
 }
 
-.docsBtn{
+.docsBtn {
     width: 90%;
     height: 45%;
     border-radius: 5px;
@@ -171,11 +171,12 @@ li {
     cursor: pointer;
 }
 
-.githubBtn:active, .docsBtn:active{
+.githubBtn:active,
+.docsBtn:active {
     opacity: 0.5;
 }
 
-.heroRight{
+.heroRight {
     width: 45%;
     height: 90%;
     display: flex;
@@ -183,22 +184,23 @@ li {
     justify-content: right;
 }
 
-.homeTextInstruction{
+.homeTextInstruction {
     width: 100%;
     height: auto;
     padding: 10px;
     margin-bottom: 20px;
+    color: #007dfe;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
 }
 
-.homeTextInstruction>h2{
+.homeTextInstruction>h2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.homeTextInstruction>p{
+.homeTextInstruction>p {
     width: 85%;
     margin-top: 20px;
     font-family: Arial, Helvetica, sans-serif;
@@ -206,7 +208,7 @@ li {
     color: gray;
 }
 
-.exampleCode{
+.exampleCode {
     width: 100%;
     height: 200px;
     margin: 30px 0px;
@@ -215,7 +217,7 @@ li {
     border-radius: 5px;
 }
 
-.exampleCode>h3{
+.exampleCode>h3 {
     color: #007dfe;
     font-size: 24px;
     margin-bottom: 30px;
@@ -223,14 +225,14 @@ li {
 }
 
 
-.p1{
+.p1 {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     padding-left: 50px;
 }
 
-.p2{
+.p2 {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
@@ -238,32 +240,32 @@ li {
     margin-top: 10px;
 }
 
-.resources{
+.resources {
     width: 100%;
     height: auto;
     padding: 20px;
 }
 
-.resources>h3{
+.resources>h3 {
     color: #007dfe;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 22px;
     margin-bottom: 20px;
 }
 
-.resources>p{
+.resources>p {
     color: gray;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     margin-bottom: 30px;
 }
 
-.ResourcesLink{
+.ResourcesLink {
     width: 50%;
     height: 30%;
 }
 
-.ResourcesLink>p{
+.ResourcesLink>p {
     width: 100%;
     height: auto;
     font-family: Arial, Helvetica, sans-serif;
@@ -274,11 +276,11 @@ li {
     justify-content: space-between;
 }
 
-.resourceLink{
+.resourceLink {
     color: #007dfe;
 }
 
-.footerCont{
+.footerCont {
     width: 100%;
     height: auto;
     border-top: 1px dashed gray;
@@ -289,4 +291,602 @@ li {
     margin-top: 20px;
     color: #007dfe;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+@media only screen and (max-width: 350px) {
+    .mainBody {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mainContainer {
+        width: 100%;
+        height: 100%;
+    }
+
+    .headerCont {
+        width: 100%;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .navLogo {
+        width: 30%;
+        height: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navItem {
+        width: 60%;
+        height: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: gray;
+    }
+
+    .navItems {
+        width: 100%;
+        height: 100%;
+        padding: 0px 5px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .navItems>li:hover {
+        color: black;
+        transition: .2s;
+        cursor: pointer;
+    }
+
+    .gitLinks {
+        color: gray;
+        text-decoration: none;
+    }
+
+    .gitLinks:hover {
+        color: black;
+        transition: .2s;
+        cursor: pointer;
+    }
+
+    li {
+        list-style: none;
+    }
+
+    .HomeHero {
+        width: 100%;
+        height: auto;
+        margin: 30px 0px 30px 0px;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+    .DocsHero {
+        width: 100%;
+        height: auto;
+        margin: 30px 0px 30px 0px;
+        padding: 20px 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+    .heroleft {
+        width: 100%;
+        height: auto;
+        padding: 5px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+    .heroleft>h1 {
+        font-size: 26px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 20px;
+        color: #007dfe;
+    }
+
+    .heroleft>p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        margin-bottom: 20px;
+        color: gray;
+    }
+
+    .Docsleft {
+        width: 90%;
+        height: 40%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+    .Docsleft>h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 10px;
+        color: #007dfe;
+    }
+
+    .Docsleft>p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        margin-bottom: 20px;
+        color: gray;
+        text-align: justify;
+    }
+
+    .heroButtons {
+        width: 100%;
+        height: auto;
+        padding: 5px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-direction: column;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .githubBtn {
+        width: 100%;
+        height: 60px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        background-color: #91bfff;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        cursor: pointer;
+    }
+
+    .docsBtn {
+        width: 100%;
+        height: 60px;
+        border-radius: 5px;
+        background-color: #007dfe;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        cursor: pointer;
+    }
+
+    .githubBtn:active,
+    .docsBtn:active {
+        opacity: 0.5;
+    }
+
+    .heroRight {
+        width: 100%;
+        height: 90%;
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .homeTextInstruction {
+        width: 100%;
+        height: auto;
+        padding: 5px;
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+    .homeTextInstruction>h2 {
+        font-size: 18px;
+        padding: 5px 2px;
+        color: #007dfe;
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .homeTextInstruction>p {
+        width: 100%;
+        margin-top: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        color: gray;
+    }
+
+    .exampleCode {
+        width: 100%;
+        height: auto;
+        margin: 30px 0px;
+        background-color: #032648;
+        border-radius: 5px;
+        overflow: auto;
+        white-space: pre-wrap;
+        max-height: 400px;
+    }
+
+    .exampleCode>h3 {
+        color: #007dfe;
+        font-size: 24px;
+        margin-bottom: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+
+    .p1 {
+        width: 100%;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        padding-left: 30px;
+        text-align: start;
+    }
+
+    .p2 {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        padding-left: 70px;
+        margin-top: 10px;
+    }
+
+    .resources {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .resources>h3 {
+        color: #007dfe;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+    .resources>p {
+        color: gray;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+
+    .ResourcesLink {
+        width: 100%;
+        height: 30%;
+    }
+
+    .ResourcesLink>p {
+        width: 100%;
+        height: auto;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .resourceLink {
+        color: #007dfe;
+        font-size: 13px;
+    }
+
+    .footerCont {
+        width: 100%;
+        height: auto;
+        border-top: 1px dashed gray;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        margin-top: 20px;
+        color: #007dfe;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1024px) {
+    .mainBody {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mainContainer {
+        width: 70%;
+        height: 100%;
+    }
+
+    .headerCont {
+        width: 100%;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .navLogo {
+        width: 13%;
+        height: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navItem {
+        width: 40%;
+        height: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: gray;
+    }
+
+    .navItems {
+        width: 100%;
+        height: 100%;
+        padding: 0px 5px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .navItems>li:hover {
+        color: black;
+        transition: .2s;
+        cursor: pointer;
+    }
+
+    .gitLinks {
+        color: gray;
+        text-decoration: none;
+    }
+
+    .gitLinks:hover {
+        color: black;
+        transition: .2s;
+        cursor: pointer;
+    }
+
+    li {
+        list-style: none;
+    }
+
+    .HomeHero {
+        width: 100%;
+        height: 400px;
+        margin: 30px 0px 50px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .DocsHero {
+        width: 100%;
+        height: 400px;
+        margin: 30px 0px 50px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .heroleft {
+        width: 45%;
+        height: 80%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+    .heroleft>h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 20px;
+        color: #007dfe;
+    }
+
+    .heroleft>p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        margin-bottom: 20px;
+        color: gray;
+    }
+
+    .Docsleft {
+        width: 45%;
+        height: 40%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+    .Docsleft>h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 10px;
+        color: #007dfe;
+    }
+
+    .Docsleft>p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        margin-bottom: 20px;
+        color: gray;
+        text-align: justify;
+    }
+
+    .heroButtons {
+        width: 70%;
+        height: 50%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-direction: column;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .githubBtn {
+        width: 90%;
+        height: 45%;
+        border-radius: 5px;
+        background-color: #91bfff;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        cursor: pointer;
+    }
+
+    .docsBtn {
+        width: 90%;
+        height: 45%;
+        border-radius: 5px;
+        background-color: #007dfe;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        cursor: pointer;
+    }
+
+    .githubBtn:active,
+    .docsBtn:active {
+        opacity: 0.5;
+    }
+
+    .heroRight {
+        width: 45%;
+        height: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+    }
+
+    .homeTextInstruction {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        margin-bottom: 20px;
+        color: #007dfe;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+    .homeTextInstruction>h2 {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .homeTextInstruction>p {
+        width: 85%;
+        margin-top: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        color: gray;
+    }
+
+    .exampleCode {
+        width: 100%;
+        height: 200px;
+        margin: 30px 0px;
+        background-color: #032648;
+        padding: 20px;
+        border-radius: 5px;
+    }
+
+    .exampleCode>h3 {
+        color: #007dfe;
+        font-size: 24px;
+        margin-bottom: 30px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+
+    .p1 {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        padding-left: 50px;
+    }
+
+    .p2 {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        padding-left: 90px;
+        margin-top: 10px;
+    }
+
+    .resources {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .resources>h3 {
+        color: #007dfe;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+    .resources>p {
+        color: gray;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+
+    .ResourcesLink {
+        width: 50%;
+        height: 30%;
+    }
+
+    .ResourcesLink>p {
+        width: 100%;
+        height: auto;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .resourceLink {
+        color: #007dfe;
+    }
+
+    .footerCont {
+        width: 100%;
+        height: auto;
+        border-top: 1px dashed gray;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        margin-top: 20px;
+        color: #007dfe;
+        font-family: Arial, Helvetica, sans-serif;
+    }
 }

@@ -51,7 +51,7 @@ const Home = () => {
                     <div className="exampleCode">
                         <h3>Example Code</h3>
                         <p className='p1'>fetch('https://dev-docket-api.vercel.app')</p>
-                        <p className='p2'>.then(res ={">"} res.json())</p>
+                        <p className='p2'>.then(res ={">"}res.json())</p>
                         <p className='p2'>.then(json={">"}console.log(json))</p>
                     </div>
                     <div className="resources">
