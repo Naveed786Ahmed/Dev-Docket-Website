@@ -293,7 +293,7 @@ li {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-@media only screen and (max-width: 370px) {
+@media only screen and (max-width: 400px) {
     .mainBody {
         width: 100%;
         height: auto;
